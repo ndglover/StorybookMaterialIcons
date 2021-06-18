@@ -2,6 +2,12 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## What is the issue
+When including a single material ui icon in my component the render time goes from instant to around 8 secs.
+If I copy the icon and create my own version it renders almost instantly again.
+
+When running the code outside of storybook there is no issue.
+
 ## How to see the issue
 
 In the project directory, you can run:
